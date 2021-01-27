@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body button {
+  cursor: pointer;
+  outline: none;
+}
+
+body input {
+  outline: none;
+}
+
+body header {
+  background-image: -webkit-gradient(linear, left top, right top, from(#e40ce4), to(#fbac00));
+  background-image: linear-gradient(to right, #e40ce4, #fbac00);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px 0;
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
